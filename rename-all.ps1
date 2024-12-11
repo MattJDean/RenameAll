@@ -1,8 +1,19 @@
-#Matt Dean 2024
+
+# RenameAll.ps1
+# Author: Matt Dean
+# Contact: matt@mattdean.tech
+# Version: 1.0.0
+# Created: 11/12/24
+# Description: 
+# Script to rename all files in a directory 
+# based on a user-specified base name 
+# and appends or prepends a sequential index.
 
 
 # PowerShell Execution Policy Bypass
-# Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+# Temporarily bypass - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+# Turn policy back on (IMPORTANT) - Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Restricted
+
 
 # Function to select a folder using a graphical dialog
 function Select-FolderDialog {
