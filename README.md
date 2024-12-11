@@ -1,5 +1,5 @@
 <h2>Overview</h2>
-<p><code>RenameAll.ps1</code> is a PowerShell script designed to rename all files in a specified directory. Users can provide a base filename, and the script appends or prepends a sequential index to each file's name. This script is useful for batch renaming files in an organized manner.</p>
+<p><code>RenameAll.ps1</code> is a PowerShell script designed to rename all files in a specified directory. Users can provide a base filename, and the script appends or prepends a sequential index to each file's name. This script is useful for batch renaming files in an organised manner.</p>
 
 <h3>Features:</h3>
 <ul>
